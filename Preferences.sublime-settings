@@ -1,0 +1,71 @@
+{
+    // Sets the colors used within the text area
+    "color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Eighties.tmTheme",
+
+    // Note that the font_face and font_size are overriden in the platform
+    // specific settings file, for example, "Preferences (Linux).sublime-settings".
+    // Because of this, setting them here will have no effect: you must set them
+    // in your User File Preferences.
+    "font_face": "Monaco",
+    "font_size": 12,
+
+    // Characters that are considered to separate words
+    "word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?_",
+
+    // Columns in which to display vertical rulers
+    "rulers": [80, 100, 120],
+
+    // Set to true to insert spaces when tab is pressed
+    "translate_tabs_to_spaces": true,
+
+    // If enabled, will highlight any line with a caret
+    "highlight_line": true,
+
+    // Set to "none" to turn off drawing white space, "selection" to draw only the
+    // white space within the selection, and "all" to draw all white space
+    "draw_white_space": "selection",
+
+    // Set to false to turn off the indentation guides.
+    // The color and width of the indent guides may be customized by editing
+    // the corresponding .tmTheme file, and specifying the colors "guide",
+    // "activeGuide" and "stackGuide"
+    "draw_indent_guides": true,
+
+    // Controls how the indent guides are drawn, valid options are
+    // "draw_normal" and "draw_active". draw_active will draw the indent
+    // guides containing the caret in a different color.
+    "indent_guide_options": ["draw_normal"],
+
+    // Set to true to removing trailing white space on save
+    "trim_trailing_white_space_on_save": true,
+
+    // Set to true to ensure the last line of the file ends in a newline
+    // character when saving
+    "ensure_newline_at_eof_on_save": true,
+
+    //
+    // User Interface Settings
+    //
+
+    // The theme controls the look of Sublime Text's UI (buttons, tabs, scroll bars, etc)
+    "theme": "Centurion.sublime-theme",
+
+    // Controls side bar animation when expanding or collapsing folders
+    "tree_animation_enabled": false,
+
+    // Controls animation throughout the application
+    "animation_enabled": false,
+
+    // Makes tabs with modified files more visible
+    "highlight_modified_tabs": true,
+
+    "show_tab_close_buttons": false,
+
+    // Show folders in the side bar in bold
+    "bold_folder_labels": true,
+
+    "ignored_packages":
+    [
+        "Vintage"
+    ]
+}
